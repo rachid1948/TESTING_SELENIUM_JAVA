@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Cart Test Suite" verbose="1" parallel="false">
+
+    <test name="Cart Add Tests">
+        <classes>
+            <class name="org.example.suites.CartAddProductSuccessTest"/>
+            <class name="org.example.suites.CartAddProductFailedTest"/>
+        </classes>
+    </test>
+
     <test name="Cart Delete Tests">
         <classes>
             <class name="org.example.suites.CartDeleteProductSuccessTest"/>
             <class name="org.example.suites.CartDeleteProductFailedTest"/>
         </classes>
     </test>
+
 </suite>

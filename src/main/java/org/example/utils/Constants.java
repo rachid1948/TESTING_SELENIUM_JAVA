@@ -12,7 +12,7 @@ public class Constants {
     public static final String EMPTY_MSG = "Your shopping cart is empty";
 
     public static final String PRODUCT_TABLET_A = "HP Elite x2 1011 G1 Tablet";
-    public static final String PRODUCT_TABLET_B = "HP Pro Tablet 608 G1 Tablet";
+    public static final String PRODUCT_TABLET_B = "HP Pro Tablet 608 G1";
     public static final String PRODUCT_SPEAKER_A = "Bose Soundlink Bluetooth Speaker III";
     public static final String PRODUCT_NAME_XPATH ="//*[normalize-space()='%s']";
     public static final By PRODUCTS_GRID = By.cssSelector("div.categoryRight");
