@@ -1,0 +1,5 @@
+username,email,password,confirm_password
+Rachido898,rachid898@test.com,Test123,Test123
+abc,abc@test.com,Test123,Test123
+RachMismatch,rachid@test.com,Test123,WrongPass999
+
