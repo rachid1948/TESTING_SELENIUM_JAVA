@@ -16,7 +16,7 @@ protected WebDriverWait wait;
     public BasePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
-        int explicitWait = 10;
+        int explicitWait = 20;
         wait = new WebDriverWait(driver, Duration.ofSeconds(explicitWait));
     }
     protected void waitForLoaderToDisappear() {
@@ -71,6 +71,10 @@ protected WebDriverWait wait;
         } catch (TimeoutException e) {
 
         }
+    }
+
+    protected void waitForUrlContains(String fragment) {
+        wait.until(ExpectedConditions.urlContains(fragment));
     }
 
     /*protected boolean isElementPresent(WebElement element) {

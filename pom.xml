@@ -21,6 +21,8 @@
         <testng.version>7.10.2</testng.version>
         <allure.version>2.27.0</allure.version>
         <maven.surefire.plugin.version>3.2.5</maven.surefire.plugin.version>
+        <cucumber.version>7.18.1</cucumber.version>
+        <junit4.version>4.13.2</junit4.version>
     </properties>
 
     <!-- Dépendances -->
@@ -46,6 +48,26 @@
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
             <version>${allure.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Cucumber -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>${cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit4.version}</version>
             <scope>test</scope>
         </dependency>
 

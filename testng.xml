@@ -17,6 +17,13 @@
         </classes>
     </test>
 
+    <test name="Cart Update Quantity Tests">
+        <classes>
+            <class name="org.example.suites.CartUpdateQuantitySuccessTest"/>
+            <class name="org.example.suites.CartUpdateQuantityFailedTest"/>
+        </classes>
+    </test>
+
     <!-- ==================== SIGNUP TESTS ==================== -->
     <test name="TC_SIGNUP_001 - Inscription avec donnees valides">
         <classes>
