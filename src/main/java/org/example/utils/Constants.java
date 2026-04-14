@@ -7,6 +7,9 @@ import org.openqa.selenium.support.FindBy;
 public class Constants {
 
     public static final String BASE_URL = "https://advantageonlineshopping.com";
+    public static final String TABLETS_URL = "https://advantageonlineshopping.com/#/category/Tablets/3";
+    public static final String CART_URL = "https://advantageonlineshopping.com/#/shoppingCart";
+    public static final String DEFAULT_TABLET_PRODUCT_URL = "https://advantageonlineshopping.com/#/product/16";
     public static final int TIMEOUT = 10;
 
     public static final String EMPTY_MSG = "Your shopping cart is empty";
